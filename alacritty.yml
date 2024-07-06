@@ -1,0 +1,34 @@
+env:
+  TERM: xterm-256color
+
+import:
+  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+
+# Font configuration (changes require restart)
+font:
+  # The normal (roman) font face to use.
+  normal:
+    # family: FiraCode Nerd Font
+    family: IntoneMono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    # family: FiraCode Nerd Font
+    family: IntoneMono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    # family: FiraCode Nerd Font
+    family: IntoneMono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Italic
+  size: 12
+
+window:
+  dimensions:
+    columns: 120
+    lines: 30
